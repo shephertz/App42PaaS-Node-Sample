@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  .body_wrapper
+    .body_inner
+        .body_content
+          .cloud_container
+            .app_sdk_image
+              img(src='/images/node_icon2.png', alt='java')
+            .app_sdk_image_th
+              h1 Welcome to App42 PaaS
+            .massage_text_app (You have successfully deployed your first Node Application)
+            .cloud_button_paas
+              a(href='http://app42paas.shephertz.com/dev-center/getting-started')
+                img(src='/images/app-page_gt.png', alt='app42_pass', style='margin-right: 20px;')
+              a(href='http://apphq.app42paas.com')
+                img(src='/images/app-page_console.png', alt='app-42_console')
+      .powered_by_wrapper
+        .powered_by_inner
+          .powered_by_content
+            table
+              tbody
+                tr
+                  td(style='font-size: 25px;')
+                    b  Powered by :
+                  td(style='margin-right: 30px;')
+                    a(href='http://app42paas.shephertz.com/dev-center/getting-started')
+                      img(src='/images/logo.png', alt='app42paas')
